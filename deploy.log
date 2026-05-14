@@ -1,0 +1,38 @@
+Already up to date.
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 105B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/nginx:latest
+#2 DONE 0.7s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 32B done
+#4 DONE 0.0s
+
+#5 [1/2] FROM docker.io/library/nginx:latest@sha256:06aa3d7be10bc6307990c81bdca075793132e9163391abc370c015e344e23128
+#5 resolve docker.io/library/nginx:latest@sha256:06aa3d7be10bc6307990c81bdca075793132e9163391abc370c015e344e23128 0.0s done
+#5 DONE 0.0s
+
+#6 [2/2] COPY index.html /usr/share/nginx/html/index.html
+#6 CACHED
+
+#7 exporting to image
+#7 exporting layers done
+#7 exporting manifest sha256:67e34f6f90978e5618919fac2aea2608c1c5b76f4df4a49beda5ff70a8dc7fc6 done
+#7 exporting config sha256:1aba679e34665ae70871f464ea4bd7ecddba656eb99676486fee730b7c907168 done
+#7 exporting attestation manifest sha256:0b6874a40158b77623bed4ce768f2409174926b05a691c72a049eefc53623c97 0.0s done
+#7 exporting manifest list sha256:53b3ffacc2511dc8f388ad3cd7f7741dd0820ef8c90a65332c0c9bf24f9ec68b
+#7 exporting manifest list sha256:53b3ffacc2511dc8f388ad3cd7f7741dd0820ef8c90a65332c0c9bf24f9ec68b 0.0s done
+#7 naming to docker.io/library/minu-veeb:latest done
+#7 unpacking to docker.io/library/minu-veeb:latest 0.0s done
+#7 DONE 0.1s
+webapp
+webapp
+e5a790bf377ac7abd37dbcb1ab8596e1792c68d882bdfe6b3e16cb3e19044cca
